@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Machine Builder 2000</title>
+    <link href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css' rel='stylesheet' />
+  </head>
+  <body class='container'>
+     <h1><%= @title %></h1>
+     Please check your configuration
+      <form action='done' method='post'>
+       <p>Number of machines: <%= @countVote %></p>
+          
+         <% if !@programVote.nil? %>
+          <p>Your Programs:</p>
+          <% @programVote.each do |prog|%>
+          <p><%= prog %></p>
+          <% end %>
+         <% else %>
+           You chose no programs!
+         <% end %>
+     <button type='submit' class='btn btn-primary'>Publish</button>
+</form>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+sudo apt-get Apache
+sudo apt-get OpenCRM
+2
+
+sudo apt-get Apache
+sudo apt-get OpenCRM
+2
+
+sudo apt-get Apache
+sudo apt-get OpenCRM
+sudo apt-get MySQL
+2
+
+sudo apt-get Apache
+1
+
+sudo apt-get MySQL
+1
+
+sudo apt-get Apache
+2
+
+sudo apt-get OpenCRM
+1
+
+sudo apt-get OpenCRM
+sudo apt-get MySQL
+1
+
+sudo apt-get Apache
+sudo apt-get OpenCRM
+sudo apt-get MySQL
+1
+
+sudo apt-get OpenCRM
+2
+
+sudo apt-get Apache
+sudo apt-get OpenCRM
+sudo apt-get MySQL
+1
+
+sudo apt-get Apache
+sudo apt-get OpenCRM
+2
+
+sudo apt-get Apache
+sudo apt-get OpenCRM
+sudo apt-get MySQL
+2
+
+sudo apt-get Apache
+2
+
+sudo apt-get Apache
+2
+
